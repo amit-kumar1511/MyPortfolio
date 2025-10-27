@@ -128,7 +128,7 @@ const Contact = () => {
                 asChild
               >
                 <a 
-                  href="https://www.linkedin.com/messaging/compose/?recipient=dummy" 
+                  href="https://linkedin.com/in/amit-kumar-a43279321" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >

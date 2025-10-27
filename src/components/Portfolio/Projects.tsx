@@ -95,8 +95,8 @@ const Projects = () => {
 
                 <div className="flex flex-col sm:flex-row gap-3 lg:gap-4">
                   <Button 
-                    size="lg" 
-                    className="bg-primary hover:bg-primary/90 glow-effect flex-1 sm:flex-none"
+                    size="sm"
+                    className="bg-primary  hover:bg-primary/90 glow-effect flex-2 sm:flex-none"
                     asChild
                   >
                     <a href={project.liveUrl} target="_blank" rel="noopener noreferrer">
@@ -106,8 +106,8 @@ const Projects = () => {
                   </Button>
                   <Button 
                     variant="outline" 
-                    size="lg" 
-                    className="border-border hover:bg-card flex-1 sm:flex-none"
+                    size="sm" 
+                    className="border-border hover:bg-card flex-2 sm:flex-none"
                     asChild
                   >
                     <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
