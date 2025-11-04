@@ -66,8 +66,8 @@ const Navigation = () => {
               </button>
             ))}
             <Button size="sm" className="bg-primary hover:bg-primary/90">
-             <a href="/resume-amit.pdf">
-              resume
+             <a href="/Amit_resume_frontend.pdf">
+              View Resume
               </a>
             </Button>
           </div>
@@ -98,8 +98,8 @@ const Navigation = () => {
               </button>
             ))}
             <Button size="sm" className="w-full bg-primary hover:bg-primary/90">
-              <a href="/Amit_resume_frontend.pdf">
-              resume
+              <a href='/Amit_resume_frontend.pdf'>
+              View Resume
               </a>
             </Button>
           </div>
