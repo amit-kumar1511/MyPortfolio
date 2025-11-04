@@ -98,7 +98,7 @@ const Navigation = () => {
               </button>
             ))}
             <Button size="sm" className="w-full bg-primary hover:bg-primary/90">
-              <a href="/resume-amit.pdf">
+              <a href="/Amit_resume_frontend.pdf">
               resume
               </a>
             </Button>

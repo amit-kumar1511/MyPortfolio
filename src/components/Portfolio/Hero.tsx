@@ -30,14 +30,9 @@ const Hero = () => {
           </div>
 
           <div className="flex flex-wrap gap-4">
-            {/* <Button size="lg" className="bg-primary hover:bg-primary/90 glow-effect" asChild>
-              <a href="react-rendition-main\src\assets\resume-amit.pdf" download="">
-                <Mail className="w-4 h-4 mr-2" />
-                Download Resume
-              </a>
-            </Button> */}
+         
             <Button variant="outline" size="lg" className="border-border hover:bg-card" asChild>
-               <a href="/resume-amit.pdf" download>
+               <a href="/Amit_resume_frontend.pdf" download>
               <Mail className="w-4 h-4 mr-2" />
               Download Resume
               </a>
