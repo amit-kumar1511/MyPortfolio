@@ -1,11 +1,22 @@
-import { ExternalLink, Github, Lightbulb, ShoppingCart, Users } from "lucide-react";
+import { CarFront, ExternalLink, Github, Lightbulb, ShoppingCart, Users } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import img from '@/assets/Screenshot 2025-10-15 002641.jpg'
 
+import img from '/src/assets/AI-trip.png'
 const Projects = () => {
   const projects = [
     {
       id: 1,
+      title: "Ai Trip Planner",
+      description: "AI Trip Planner – Plan your perfect journey with smart recommendations! Our AI suggests the best hotels, places to visit, and daily itineraries tailored to your interests. Easily save and customize your trip, get real-time updates, and enjoy stress-free travel planning—all in one app.",
+      icon: CarFront,
+      tech: ["React.js","Tailwind CSS" , 'Shadcn UI','Google Place API' , 'Google Auth','unsplash','etc.'],
+      image: img,
+      liveUrl: "https://ai-trip-plan1511.vercel.app/",
+      githubUrl: "https://github.com/amit-kumar1511/ai-trip-planner-web"
+    },
+    
+    {
+      id: 2,
       title: "E-Commerce Platform",
       description: "A modern eCommerce web app built with React.js and Clerk for secure authentication, featuring product browsing, cart management, and checkout with a responsive, user-friendly interface and seamless shopping experience.",
       icon: ShoppingCart,
@@ -15,7 +26,7 @@ const Projects = () => {
       githubUrl: "https://github.com/amit-kumar1511/Clothing-Ecommerce-Website?tab=readme-ov-file"
     },
     {
-      id: 2,
+      id: 3,
       title: "Video Call WebApp",
       description: "A video call web app built with React.js, Clerk, ZegoCloud, and Tailwind CSS, offering real-time video communication and chat, secure authentication, responsive design, and a smooth, user-friendly interface for seamless virtual meetings.",
       icon: Lightbulb,
@@ -24,16 +35,7 @@ const Projects = () => {
       liveUrl: "https://zomeet.netlify.app/",
       githubUrl: "https://github.com/amit-kumar1511/Online-Meeting-WebApp?tab=readme-ov-file"
     },
-    {
-      id: 3,
-      title: "Personal Portfolio",
-      description: "A modern, visually engaging personal portfolio showcasing creativity, professional achievements, and technical expertise. Highlights projects, skills, and experiences with a clean design, interactive elements, and clear storytelling to impress potential clients or employers.",
-      icon: Users,
-      tech: ["Html", "Css", "Js"],
-      image: img,
-      liveUrl: "https://amit1511.vercel.app/",
-      githubUrl: "https://github.com/amit-kumar1511/Portfolio"
-    }
+   
   ];
 
   return (
